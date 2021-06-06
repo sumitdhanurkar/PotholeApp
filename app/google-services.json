@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "788005462353",
+    "project_id": "bubbly-trail-315820",
+    "storage_bucket": "bubbly-trail-315820.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788005462353:android:69dbdfce4dad257f31b370",
+        "android_client_info": {
+          "package_name": "com.example.mylocationoverfbdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788005462353-f3bos68sqttmk8qi6628ifba3t5h2jei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mylocationoverfbdb",
+            "certificate_hash": "b65207108ecf16c56a1b11ce4254a3ed4e471023"
+          }
+        },
+        {
+          "client_id": "788005462353-hrnjjvnrgfk9lc51jqghmb6l51t8rpk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5lSe3F3mgaZpAJu5WYRQx0YZzYjuifLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788005462353-hrnjjvnrgfk9lc51jqghmb6l51t8rpk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

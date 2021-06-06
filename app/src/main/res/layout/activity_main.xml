@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:background="@drawable/custom"/>
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/spinner"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:hint="Enter Phone Number"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/otpEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneEditText"
+        android:clickable="false"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/custom"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:hint="Enter Otp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+
+    <Button android:id="@+id/btn_generate_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otpEditText"
+        android:layout_margin="20dp"
+        android:background="#800000"
+        android:textColor="#ffffff"
+        android:text="Generate OTP"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer"
+        android:textSize="30sp"
+        android:layout_below="@id/btn_generate_otp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:layout_margin="20dp"
+        android:background="#80000"
+        android:text="Verify and SignIn"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+</RelativeLayout>
