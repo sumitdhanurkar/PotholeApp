@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">My LocationoverFBDB</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="button">Hump Detected</string>
+    <string name="app_name"> </string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="button">Pothole Detected</string>
     <string name="longitude">Longitude</string>
     <string name="latitude">Latitude</string>
     <string name="otp_verification">OTP Verification</string>
@@ -14,4 +14,11 @@
     <string name="didn_t_receive_otp">Didn\'t Receive OTP</string>
     <string name="resend_otp">RESEND OTP</string>
     <string name="verify">Verify</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="api_key">AIzaSyB5lSe3F3mgaZpAJu5WYRQx0YZzYjuifLs</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="generate">Generate</string>
+    <string name="weather">Weather Update</string>
+    <string name="title_activity_retrieve_map">Map</string>
 </resources>

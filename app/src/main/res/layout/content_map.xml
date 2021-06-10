@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MapActivity"
+    tools:showIn="@layout/activity_map">
+
+    <fragment
+        android:id="@+id/btn_locate"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity"
+        tools:layout="@android:layout/simple_spinner_dropdown_item" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="550dp"
+        android:ems="10"
+        android:hint="@string/latitude"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="550dp"
+        android:ems="10"
+        android:hint="@string/longitude"
+        android:visibility="invisible"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="530dp"
+        android:onClick="updateButtonOnClick"
+        android:text="@string/button" />
+
+    <Button
+        android:id="@+id/btnproceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="530dp"
+        android:onClick="btnRetrieveLocation"
+        android:text="Show Pothole" />
+
+
+    <SearchView
+        android:id="@+id/sv_location"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:drawableLeft="@drawable/ic_location"
+        android:iconifiedByDefault="false"
+        android:layout_margin="10dp"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:elevation="5dp"
+        android:hint="Search...."
+        android:padding="10dp" />
+
+</FrameLayout>
